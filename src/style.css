@@ -1,0 +1,76 @@
+/*  ──────────────────────────────
+    GLOBAL
+   ────────────────────────────── */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/*  ──────────────────────────────
+    MENU BAR
+   ────────────────────────────── */
+.menu-bar {
+    -fx-background-color: #974801;          /* deep brown‑orange */
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.menu-item .label {
+    -fx-text-fill: #333333;                 /* dark gray for drop‑down items */
+}
+
+/*  ──────────────────────────────
+    LEFT AVATAR PANE
+   ────────────────────────────── */
+.side-pane {
+    -fx-background-color: #b2792f;          /* lighter brown */
+}
+
+/*  ──────────────────────────────
+    TABLE VIEW
+   ────────────────────────────── */
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #c4c4c4;          /* medium gray header */
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: #666666;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e1eaff;          /* pale blue selection */
+}
+
+/*  ──────────────────────────────
+    RIGHT FORM PANE
+   ────────────────────────────── */
+.form-pane {
+    -fx-background-color: #63e800;          /* bright green */
+}
+
+.form-pane .text-field {
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+}
+
+.form-pane .button {
+    -fx-background-color: #b2792f;          /* matches left pane */
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-pref-width: 160;
+    -fx-background-radius: 3;
+}
+
+/*  ──────────────────────────────
+    FOOTER STRIP
+   ────────────────────────────── */
+.footer {
+    -fx-background-color: #a9a9a9;          /* dark gray */
+}
